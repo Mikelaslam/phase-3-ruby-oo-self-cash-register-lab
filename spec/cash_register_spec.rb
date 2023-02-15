@@ -12,7 +12,7 @@ describe 'CashRegister' do
     end
   end
 
-  describe '#total' do
+  describe '#total' do 
     it 'returns the current total' do
       cash_register.total = 100
       expect(cash_register.total).to eq(100)
